@@ -1,4 +1,5 @@
-window.onload = function () {
+$(document).ready(function () {
+    // 在这里添加你的代码
     var adContainer = document.createElement('div');
     adContainer.style.position = 'fixed';
     adContainer.style.bottom = '0';
@@ -41,5 +42,5 @@ window.onload = function () {
         }
     });
 
-}
 
+});

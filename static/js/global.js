@@ -1,4 +1,5 @@
-window.onload = function () {
+$(document).ready(function () {
+    // 在这里添加你的代码
 
     // 让所有url 变成可点击的a 标签
     // 获取所有的文本节点
@@ -24,4 +25,4 @@ window.onload = function () {
     h1.innerHTML = '';
     h1.appendChild(a);
 
-}
+});
